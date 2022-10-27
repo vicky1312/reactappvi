@@ -16,7 +16,7 @@ const Greet = () =>{
             <div className="butns">
                 <button id="butn_zuri"><a href="https://training.zuri.team/" target="_blank" rel="noreferrer">Zuri Team</a></button>
                 <button id="books"><a href=" http://books.zuri.team" target="_blank" rel="noreferrer">Zuri Books</a></button>
-                <button id="book_python"><a href="https://books.zuri.team/python-for-beginners?ref_id=vi" target="_blank" rel="noreferrer">Python Books</a></button>
+                <button id="book_python"><a href="https://books.zuri.team/python-for-beginners?ref_id=<vi>" target="_blank" rel="noreferrer">Python Books</a></button>
                 <button id="pitch"><a href=" https://background.zuri.team" target="_blank" rel="noreferrer">Background Check For Coders</a></button>
                 <button id="book_design"><a href="https://books.zuri.team/design-rules" target="_blank" rel="noreferrer">Design Books</a></button>
             </div>
