@@ -19,7 +19,7 @@ const Greet = () =>{
                 <div className="profilepic" id="profile_image">
                     <img src= {require ("./meme.jpeg")} alt="Victory Abayomi"></img>
                 </div>
-                <p id="twitter">Twitter: @endtheworldnowO</p>
+                <p id="twitter">endtheworldnowO</p>
                 <p id="slack">Vi</p>
             </section>
             
