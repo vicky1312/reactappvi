@@ -1,5 +1,7 @@
 import React from "react"
 import "./zuri.css"
+import { RiMoreLine } from "react-icons/ri";
+import { RiShareForwardLine } from "react-icons/ri";
 import { BsGithub } from "react-icons/bs";
 import { BsSlack } from "react-icons/bs";
 
@@ -8,6 +10,12 @@ const Greet = () =>{
         <>
         <div className="zuriproj">
             <section className="profile">
+                <div id="share">
+                    <RiShareForwardLine />
+                </div>
+                <div id="more">
+                    <RiMoreLine />
+                </div>
                 <div className="profilepic" id="profile_image">
                     <img src= {require ("./meme.jpeg")} alt="Victory Abayomi"></img>
                 </div>

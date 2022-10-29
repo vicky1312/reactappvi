@@ -41,11 +41,23 @@ a{
 #socials{
     margin-left: 47%;
     margin-top: 3%;
+    margin-bottom: 3%;
 }
 #icon{
     margin: 10px;
 }
-
+#share {
+    float: right;
+    position: relative; right: 25%;
+    margin-top: 2%;
+    border: 1px dotted;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 17px;
+}
+#more{
+    display: none;
+}
 @media screen and (max-width: 700px){
     img{
       height: 7em;
@@ -59,8 +71,23 @@ a{
     button{
         width: 90%;
         margin-left: 5%;
+        height: 4em;
     }
     #socials{
         margin-left: 40%;
+    }
+    #share{
+        display: none;
+    }
+    #more{
+        float: right;
+        visibility: visible;
+        display: block !important;
+        position: relative; right: 5%;
+        margin-top: 10%;
+        border: solid 0.2px grey;
+        border-radius: 50%;
+        width: 5%;
+        height: 1.1em;
     }
 }
