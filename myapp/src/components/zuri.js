@@ -31,12 +31,12 @@ const Greet = () =>{
             </section>
             
             <div className="butns">
-                <button id="twitters"> <a href="https://twitter.com/endtheworldnowO">Twitter Link</a></button>
-                <button id="butn_zuri"><a href="https://training.zuri.team/" target="_blank" rel="noreferrer">Zuri Team</a></button>
-                <button id="books"><a href=" http://books.zuri.team" target="_blank" rel="noreferrer">Zuri Books</a></button>
-                <button id="book_python"><a href="https://books.zuri.team/python-for-beginners?ref_id=<vi>" target="_blank" rel="noreferrer">Python Books</a></button>
-                <button id="pitch"><a href=" https://background.zuri.team" target="_blank" rel="noreferrer">Background Check For Coders</a></button>
-                <button id="book_design"><a href="https://books.zuri.team/design-rules" target="_blank" rel="noreferrer">Design Books</a></button>
+                <a href="https://twitter.com/endtheworldnowO"><button id="twitters">Twitter Link</button></a>
+                <a href="https://training.zuri.team/" target="_blank" rel="noreferrer"><button id="butn_zuri">Zuri Team</button></a>
+                <a href=" http://books.zuri.team" target="_blank" rel="noreferrer"><button id="books">Zuri Books</button></a>
+                <a href="https://books.zuri.team/python-for-beginners?ref_id=<vi>" target="_blank" rel="noreferrer"><button id="book_python">Python Books</button></a>
+                <a href=" https://background.zuri.team" target="_blank" rel="noreferrer"><button id="pitch">Background Check For Coders</button></a>
+                <a href="https://books.zuri.team/design-rules" target="_blank" rel="noreferrer"><button id="book_design">Design Books</button></a>
             </div>
             <div id="socials">
                     <img alt="slack" id="icon" src={require("./slack.png")}></img>

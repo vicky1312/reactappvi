@@ -16,7 +16,7 @@
 }
 #profile_img:hover + #camera{
     display: block !important;
-    margin-left: 48%;
+    margin-left: 50%;
     position: relative; bottom: 2em;
     color: white;
     font-size: 25px;
@@ -45,20 +45,18 @@ button{
     margin-left: 7%;
     border-radius: 0.5em;
     border: none hsl(220,17%,93%);
-}
-button:hover{
-    border: solid 1.5px hsl(217,16%,84%);
-    filter: brightness(90%);
-}
-a:link{
-    text-decoration: none;
-}
-a{
     color: rgba(0, 0, 0, 0.896);
     font-weight: 600;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+button:hover{
+    border: solid 1.5px hsl(217,16%,84%);
+    filter: brightness(90%);
+    cursor: pointer;
+}
+a:link{
+    text-decoration: none;
+}
 #socials{
     margin-left: 48%;
     margin-top: 3%;
@@ -77,6 +75,7 @@ a{
 }
 #share:hover{
     filter: brightness(80%);
+    cursor: pointer;
 }
 #more{
     display: none;
