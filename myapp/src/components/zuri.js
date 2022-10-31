@@ -21,7 +21,7 @@ const Greet = () =>{
                     <img alt="avatar" src={require("./_Avatar share button mobile.png")}></img>
                 </div>
                 <div className="profilepic">
-                    <img id="profile_img" src= {require ("./meme.jpeg")} alt="Victory Abayomi"></img>
+                    <img id="profile__img" src= {require ("./meme.jpeg")} alt="Victory Abayomi"></img>
                     <div id="camera">
                         < AiOutlineCamera />
                     </div>
@@ -32,11 +32,11 @@ const Greet = () =>{
             
             <div className="butns">
                 <a href="https://twitter.com/endtheworldnowO"><button id="twitters">Twitter Link</button></a>
-                <a href="https://training.zuri.team/" target="_blank" rel="noreferrer"><button id="butn_zuri">Zuri Team</button></a>
+                <a href="https://training.zuri.team/" target="_blank" rel="noreferrer"><button id="bstn__zuri">Zuri Team</button></a>
                 <a href=" http://books.zuri.team" target="_blank" rel="noreferrer"><button id="books">Zuri Books</button></a>
-                <a href="https://books.zuri.team/python-for-beginners?ref_id=<vi>" target="_blank" rel="noreferrer"><button id="book_python">Python Books</button></a>
+                <a href="https://books.zuri.team/python-for-beginners?ref_id=<vi>" target="_blank" rel="noreferrer"><button id="book__python">Python Books</button></a>
                 <a href=" https://background.zuri.team" target="_blank" rel="noreferrer"><button id="pitch">Background Check For Coders</button></a>
-                <a href="https://books.zuri.team/design-rules" target="_blank" rel="noreferrer"><button id="book_design">Design Books</button></a>
+                <a href="https://books.zuri.team/design-rules" target="_blank" rel="noreferrer"><button id="book__design">Design Books</button></a>
             </div>
             <div id="socials">
                     <img alt="slack" id="icon" src={require("./slack.png")}></img>

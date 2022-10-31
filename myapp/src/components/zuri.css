@@ -2,7 +2,7 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
-#profile_img{
+#profile__img{
     border-radius: 50%;
     height: 12em;
     width: 17%;
@@ -14,14 +14,14 @@
 #camera{
     display: none;
 }
-#profile_img:hover + #camera{
+#profile__img:hover + #camera{
     display: block !important;
     margin-left: 50%;
     position: relative; bottom: 2em;
     color: white;
     font-size: 25px;
 }
-#profile_img:hover{
+#profile__img:hover{
     filter: brightness(50%);
     cursor: pointer;
 }
@@ -96,7 +96,7 @@ a:link{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 @media screen and (max-width: 700px){
-    #profile_img{
+    #profile__img{
       height: 7em;
       width: 30%;
       margin-left: 30%;  
