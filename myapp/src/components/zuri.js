@@ -1,4 +1,5 @@
 import React from "react"
+import {useNavigate} from 'react-router-dom'
 import "./zuri.css"
 import "./_Avatar share button.png";
 import "./_Avatar share button mobile.png";
@@ -10,6 +11,8 @@ import "./Icon.png";
 
 
 const Greet = () =>{
+    let navigate = useNavigate();
+
     return(
         <>
         <div className="zuriproj">
@@ -32,11 +35,15 @@ const Greet = () =>{
             
             <div className="butns">
                 <a href="https://twitter.com/endtheworldnowO"><button id="twitters">Twitter Link</button></a>
-                <a href="https://training.zuri.team/" target="_blank" rel="noreferrer"><button id="bstn__zuri">Zuri Team</button></a>
+                <a href="https://training.zuri.team/" target="_blank" rel="noreferrer"><button id="btn__zuri">Zuri Team</button></a>
                 <a href=" http://books.zuri.team" target="_blank" rel="noreferrer"><button id="books">Zuri Books</button></a>
                 <a href="https://books.zuri.team/python-for-beginners?ref_id=<vi>" target="_blank" rel="noreferrer"><button id="book__python">Python Books</button></a>
                 <a href=" https://background.zuri.team" target="_blank" rel="noreferrer"><button id="pitch">Background Check For Coders</button></a>
                 <a href="https://books.zuri.team/design-rules" target="_blank" rel="noreferrer"><button id="book__design">Design Books</button></a>
+                <button onClick={() => {
+                    navigate("/contact")
+                }} id="contact">Contact Me</button>
+                
             </div>
             <div id="socials">
                     <img alt="slack" id="icon" src={require("./slack.png")}></img>
