@@ -52,11 +52,12 @@ input{
     font-size: 17px;
 }
 input:focus{
-    outline: solid 3px hsl(206,100%,97%);
+    outline: solid 4px hsl(206,100%,97%);
+    border: none;
 }
 #checks{
     display: flex;
-    margin-bottom: 0.5em;
+    margin-bottom: 1.5em;
     margin-right: 31%;
 }
 input[type=checkbox] {
@@ -81,8 +82,8 @@ textarea{
     border-radius: 0.4em;
 }
 textarea:focus{
-    border: solid 1.5px hsl(217,16%,84%);
-    outline: none;
+    outline: solid 4px hsl(206,100%,97%);
+    border: none;
 }
 textarea:hover{
     border: solid 1.5px hsl(8,94%,61%);
