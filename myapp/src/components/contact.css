@@ -56,18 +56,24 @@ input:focus{
 }
 #checks{
     display: flex;
-    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     margin-right: 31%;
 }
+input[type=checkbox] {
+    height: 0.7em;
+    width: 0.7em;
+}
+
 #check:checked{
     color: hsl(207,100%,86%);
 } 
 
 span{
-    overflow: auto;
-    display: block;
-    position: relative; top: 3.7em; left: 1%;
+    overflow: hidden;
+    display: inline-block;
+    position: relative; top: 2.3em; left: 1%;
     font-size: 13px;
+    text-align: justify;
 }
 textarea{
     width: 100%;

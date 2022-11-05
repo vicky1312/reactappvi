@@ -41,9 +41,9 @@ function Contact() {
             
             <div id='checks'>
                 <label id='check'>
-                    <input id='checkbox' type="checkbox"></input>
+                    <input id='checkbox' type="checkbox" required></input>
                 </label>
-                <span id="checkpar">You agree to providing your data to Vi who may contact you</span>
+                <span id="checkpar">You agree to providing your data to Abayomi Victory who may contact you</span>
             </div>
 
             <button id='btn__submit'>Submit Message</button>
